@@ -74,7 +74,7 @@ Last Updated on \today
 % Profile Command
 \newcommand{\profile}[1]{%
   \begin{minipage}{0.3\textwidth} % Adjust the width as needed
-    \section{Profile Summary}\\
+    \section{About Me}\\
     #1
   \end{minipage}
 }
@@ -102,11 +102,27 @@ Last Updated on \today
 \color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase}{}{0em}{}
 
 \newcommand{\runsubsection}[1]{
-\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase {#1} \normalfont}
+\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase {#1}\normalfont}
 
 % Descriptors command
 \newcommand{\descript}[1]{
 \color{subheadings}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\} \normalfont}
+
+% Coursework command
+\newcommand{\coursework}[1]{
+\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-Light}\fontsize{10pt}{12pt}\selectfont {#1 \\} \normalfont}
+
+% Smaller Heading command
+\newcommand{\smallhead}[1]{
+\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-SemiBold}\fontsize{10pt}{12pt}\selectfont {#1 \\} \normalfont}
+
+% Medium Heading command
+\newcommand{\mediumhead}[1]{
+\color{subheadings}\scshape\fontspec[Path = fonts/raleway/]{Raleway-Bold}\fontsize{12pt}{14pt}\selectfont{#1}\normalfont}
+
+% Conservative Medium Heading command
+\newcommand{\conservmediumhead}[1]{
+\color{subheadings}\scshape\fontspec[Path = fonts/raleway/]{Raleway-SemiBold}\fontsize{11pt}{13pt}\selectfont{#1}\normalfont}
 
 % Location command
 \newcommand{\location}[1]{
@@ -116,4 +132,3 @@ Last Updated on \today
 \newenvironment{tightemize}{
 \vspace{-\topsep}\begin{itemize}\itemsep1pt \parskip0pt \parsep0pt}
 {\end{itemize}\vspace{-\topsep}}
-
