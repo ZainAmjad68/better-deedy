@@ -76,9 +76,9 @@ Last Updated on \today
 % Profile Command
 \newcommand{\profile}[1]{%
   \begin{minipage}{0.3\textwidth} % Adjust the width as needed
-    \section{About Me}\\
+    \section{About Me}
     #1
-  \end{minipage}
+  \end{minipage}%
 }
 
 % Command to create a list of links with icons
