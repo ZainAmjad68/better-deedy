@@ -1,27 +1,19 @@
-Deedy-Resume
+Better Deedy
 =========================
 
-A **one-page**, **two asymmetric column** resume template in **XeTeX** that caters particularly to an **undergraduate Computer Science** student.
-As of **v1.2**, there is an option to choose from two templates:
+An elegant XeTeX resume template with a distinct twist—featuring a one-page layout and two asymmetric columns. The design draws inspiration from the renowned [Deedy CV](https://www.overleaf.com/latex/templates/deedy-cv/bjryvfsjdyxz) format and the sophisticated aesthetic of the [Novaresume Professional Resume](https://novoresume.com/editor/new-resume/6).
 
-1. **MacFonts** - uses fonts native to OSX - *Helvetica*, *Helvetica Neue* (and it's Light and Ultralight versions) and the CJK fonts *Heiti SC*, and *Heiti TC*. The EULA of these fonts prevents distribution on Open Source.
-2. **OpenFonts** - uses free, open-source fonts that resemble the above - *Lato* (and its various variants) and *Raleway*.
+Catering to early and mid-level professionals with a substantial portfolio of projects and certifications, this resume is tailor-made for those who possess a rich repertoire of accomplishments and require a layout that can showcase their experience without things looking congested. 
 
-It is licensed under the Apache License 2.0.
+Licensed under the Apache License 2.0, this template offers a modern solution for crafting impactful resumes.
 
 ## Motivation
 
-Common LaTeX resume-builders such as [**moderncv**](http://www.latextemplates.com/template/moderncv-cv-and-cover-letter)  and the [**friggeri-cv**](https://github.com/afriggeri/cv) look great if you're looking for a multi-page resume with numerous citations, but usually imperfect for making a thorough, single-page one. A lot of companies today search resumes based on [keywords](http://www.businessinsider.com/most-big-companies-have-a-tracking-system-that-scans-your-resume-for-keywords-2012-1) but at the same time require/prefer a one-page resume, especially for undergraduates. 
+The inspiration behind this LaTeX resume template comes from the highly effective Deedy CV format, renowned for its efficient use of space, visual appeal through organized formatting, and compatibility with [ATS](http://www.businessinsider.com/most-big-companies-have-a-tracking-system-that-scans-your-resume-for-keywords-2012-1) (Applicant Tracking System) used by many companies. While Deedy CV excels in most aspects, it has its shortcomings too. For example, the European and Asian regions usually expect the inclusion of a Profile Image and Personal Overview in the resume, and Deedy CV has no such options. Moreover, any existing options on the internet that fulfil these conditions are limited and most of them don’t offer any customization outside of their 'PRO' plans. To address this gap, I embarked on creating a contemporary, compact, and highly customizable template that meets diverse needs.
 
-This template attempts to **look clean**, highlight **details**, be a **single page**, and allow useful **LaTeX templating**.
-
+The outcome is this LaTeX Template, designed to maintain a **clean appearance**, **emphasize important details**, **fit within a single page**, and offer **extensive LaTeX templating** capabilities.
 ## Preview
-
-### OpenFonts
-![alt tag](https://raw.githubusercontent.com/deedydas/Deedy-Resume/master/OpenFonts/sample-image.png)
-
-### MacFonts
-![alt tag](https://raw.githubusercontent.com/deedydas/Deedy-Resume/master/MacFonts/sample-image.png)
+![alt tag](https://raw.githubusercontent.com/ZainAmjad68/Better-Deedy/master/Better_Dedee.png)
 
 ## Dependencies
 
@@ -29,40 +21,28 @@ This template attempts to **look clean**, highlight **details**, be a **single p
 2. Uses fonts that are usually only available to **Mac** users such as Helvetica Neue Light.
 
 ## Availability
-
-1. MacFonts version - [as an online preview](http://debarghyadas.com/resume/debarghya-das-resume.pdf) and [as a direct download](https://github.com/deedydas/Deedy-Resume/raw/master/MacFonts/deedy_resume.pdf)
-2. OpenFonts version - [as a direct download](https://github.com/deedydas/Deedy-Resume/raw/master/OpenFonts/deedy_resume-openfont.pdf)
-3. **Overleaf**.com (formerly **WriteLatex**.com) (v1 fonts/colors changed) - [compilable online](https://www.writelatex.com/templates/deedy-resume/sqdbztjjghvz#.U2H9Kq1dV18)
-4. **ShareLatex**.com (v1 fonts changes) - [compilable online](https://www.sharelatex.com/templates/cv-or-resume/deedy-resume)
+1. **Overleaf**.com (formerly **WriteLatex**.com) (v1.1) - [compilable online](https://www.writelatex.com/templates/deedy-resume/sqdbztjjghvz#.U2H9Kq1dV18)
+2. **GitHub**.com (v1.2) - [fork and modify - works offline](https://github.com/ZainAmjad68/better-deedy)
 
 ## Changelog
 ### v1.2
- 1. Added publications in place of societies.
- 2. Collapsed a portion of education.
- 3. Fixed a bug with alignment of overflowing long last updated dates on the top right. 
+ 1. Created a Section to showcase Open Source Work.
+ 2. Added Certifications in place of Awards.
+ 3. Added new `mediumhead` and `smallhead` commands
 
 ### v1.1
- 1. Fixed several compilation bugs with \renewcommand
- 2. Got Open-source fonts (Windows/Linux support)
+ 1. Revamped the Starting Section
+ 2. Added an About Me, a Profile Pic and Links in the Starting Section
  3. Added Last Updated
- 4. Moved Title styling into .sty
- 5. Commented .sty file.
-
-## TODO
-1. Merge OpenFont and MacFonts as a single sty with options.
-2. Figure out a smoother way for the document to flow onto the next page.
-3. Add styling information for a "Projects/Hacks" section.
-4. Add location/address information
-5. Fix the hacky 'References' omission outside the .cls file in the MacFonts version.
-6. Add various styling and section options and allow for multiple pages smoothly.
+ 4. fixed format issues with Profile Pic
+ 5. Removed separate sections for Masters and Bachelors from Coursework
 
 ## Known Issues:
 1. Overflows onto second page if any column's contents are more than the vertical limit
 2. Hacky space on the first bullet point on the second column.
-3. Hacky redefinition of \refname to omit 'References' text for publications in the MacFonts version.
 
 ## License
-    Copyright 2014 Debarghya Das
+    Copyright 2023 Zain Amjad
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
