@@ -23,6 +23,8 @@
 \definecolor{primary}{HTML}{2b2b2b} 
 \definecolor{headings}{HTML}{6A6A6A}
 \definecolor{subheadings}{HTML}{333333}
+\definecolor{lighterheadings}{HTML}{404040}
+\definecolor{lightestheadings}{HTML}{4d4d4d}
 
 % Set main fonts
 \usepackage{fontspec}
@@ -50,8 +52,8 @@ Last Updated on \today
 \newcommand{\namesection}[3]{%
   \centering
   {\fontsize{25pt}{37.5pt}%
-    \fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont #1 
-    \fontspec[Path = fonts/lato/]{Lato-Hai}\selectfont #2
+    \fontspec[Path = fonts/lato/]{Lato-Reg}\selectfont #1 
+    \fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont #2
   } \\[5pt]
   \centering
   {\color{headings}%
@@ -118,11 +120,11 @@ Last Updated on \today
 
 % Medium Heading command
 \newcommand{\mediumhead}[1]{
-\color{subheadings}\scshape\fontspec[Path = fonts/raleway/]{Raleway-Bold}\fontsize{12pt}{14pt}\selectfont{#1}\normalfont}
+\color{lightestheadings}\scshape\fontspec[Path = fonts/raleway/]{Raleway-Bold}\fontsize{12pt}{14pt}\selectfont{#1}\normalfont}
 
 % Conservative Medium Heading command
 \newcommand{\conservmediumhead}[1]{
-\color{subheadings}\scshape\fontspec[Path = fonts/raleway/]{Raleway-SemiBold}\fontsize{11pt}{13pt}\selectfont{#1}\normalfont}
+\color{lighterheadings}\scshape\fontspec[Path = fonts/raleway/]{Raleway-SemiBold}\fontsize{11pt}{13pt}\selectfont{#1}\normalfont}
 
 % Location command
 \newcommand{\location}[1]{
@@ -132,3 +134,4 @@ Last Updated on \today
 \newenvironment{tightemize}{
 \vspace{-\topsep}\begin{itemize}\itemsep1pt \parskip0pt \parsep0pt}
 {\end{itemize}\vspace{-\topsep}}
+
