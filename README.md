@@ -21,8 +21,7 @@ The outcome is this LaTeX Template, designed to maintain a **clean appearance**,
 2. Uses fonts that are usually only available to **Mac** users such as Helvetica Neue Light.
 
 ## Availability
-1. **Overleaf**.com (formerly **WriteLatex**.com) (v1.1) - [compilable online](https://www.writelatex.com/templates/deedy-resume/sqdbztjjghvz#.U2H9Kq1dV18)
-2. **GitHub**.com (v1.2) - [fork and modify - works offline](https://github.com/ZainAmjad68/better-deedy)
+1. **GitHub**.com (v1.2) - [fork and modify - works offline](https://github.com/ZainAmjad68/better-deedy)
 
 ## Changelog
 ### v1.2
