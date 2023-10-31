@@ -111,8 +111,13 @@ Last Updated on \today
 \color{subheadings}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\} \normalfont}
 
 % Coursework command
-\newcommand{\coursework}[1]{
-\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-Light}\fontsize{10pt}{12pt}\selectfont {#1 \\} \normalfont}
+\newcommand{\coursework}[2]{%
+    \section{#1}%
+    \color{subheadings}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-Light}\fontsize{10pt}{12pt}\selectfont%
+    #2
+    \normalfont%
+    \sectionsep%
+}
 
 % Smaller Heading command
 \newcommand{\smallhead}[1]{
@@ -134,4 +139,3 @@ Last Updated on \today
 \newenvironment{tightemize}{
 \vspace{-\topsep}\begin{itemize}\itemsep1pt \parskip0pt \parsep0pt}
 {\end{itemize}\vspace{-\topsep}}
-
