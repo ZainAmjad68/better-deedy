@@ -9,7 +9,11 @@ Licensed under the Apache License 2.0, this template offers a modern solution fo
 
 ## Motivation
 
-The inspiration behind this LaTeX resume template comes from the highly effective Deedy CV format, renowned for its efficient use of space, visual appeal through organized formatting, and compatibility with [ATS](http://www.businessinsider.com/most-big-companies-have-a-tracking-system-that-scans-your-resume-for-keywords-2012-1) (Applicant Tracking System) used by many companies. While Deedy CV excels in most aspects, it has its shortcomings too. For example, the European and Asian regions usually expect the inclusion of a Profile Image and Personal Overview in the resume, and Deedy CV has no such options. Moreover, any existing options on the internet that fulfil these conditions are limited and most of them don’t offer any customization outside of their 'PRO' plans. To address this gap, I embarked on creating a contemporary, compact, and highly customizable template that meets diverse needs.
+The inspiration behind this LaTeX resume template comes from the highly effective Deedy CV format, renowned for its efficient use of space, visual appeal through organized formatting, and compatibility with [ATS](http://www.businessinsider.com/most-big-companies-have-a-tracking-system-that-scans-your-resume-for-keywords-2012-1) (Applicant Tracking System) used by many companies. 
+
+While Deedy CV excels in most aspects, it has its shortcomings too. For example, the European and Asian regions usually expect the inclusion of a Profile Image and Personal Overview in the resume, and Deedy CV has no such options. Moreover, any existing options on the internet that fulfil these conditions are limited and most of them don’t offer any customization outside of their 'PRO' plans. 
+
+To address this gap, I embarked on creating a contemporary, compact, and highly customizable template that meets diverse needs.
 
 The outcome is this LaTeX Template, designed to maintain a **clean appearance**, **emphasize important details**, **fit within a single page**, and offer **extensive LaTeX templating** capabilities.
 ## Preview
@@ -17,12 +21,11 @@ The outcome is this LaTeX Template, designed to maintain a **clean appearance**,
 
 ## Dependencies
 
-1. Compiles only with **XeTeX** and required **BibTex** for compiling publications and the .bib filetype.
+1. Compiles only with **XeTeX** and requires **BibTex** for compiling publications and the .bib filetype.
 2. Uses fonts that are usually only available to **Mac** users such as Helvetica Neue Light.
 
 ## Availability
-1. **Overleaf**.com (formerly **WriteLatex**.com) (v1.1) - [compilable online](https://www.writelatex.com/templates/deedy-resume/sqdbztjjghvz#.U2H9Kq1dV18)
-2. **GitHub**.com (v1.2) - [fork and modify - works offline](https://github.com/ZainAmjad68/better-deedy)
+1. **GitHub**.com (v1.2) - [fork and modify - works offline](https://github.com/ZainAmjad68/better-deedy)
 
 ## Changelog
 ### v1.2
