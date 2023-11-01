@@ -29,11 +29,17 @@ The outcome is this LaTeX Template, designed to maintain a **clean appearance**,
 
 ## Changelog
 ### v1.2
+ 1. Replaced itemized list with custom bullets (was causing issues when text copied from PDF).
+ 2. Make the overall layout more ATS compliant.
+ 3. Improve Courserwork Section logic.
+ 4. Properly indent the various section elements.
+
+### v1.1
  1. Created a Section to showcase Open Source Work.
  2. Added Certifications in place of Awards.
  3. Added new `mediumhead` and `smallhead` commands
 
-### v1.1
+### v1.0
  1. Revamped the Starting Section
  2. Added an About Me, a Profile Pic and Links in the Starting Section
  3. Added Last Updated
